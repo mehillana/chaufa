@@ -81,3 +81,13 @@ if __name__ == "__main__":
     else:
         interpreter = ChaufaInterpreter()
         interpreter.run_file(sys.argv[1])
+```
+
+## 3. Usage
+
+To execute any Chaufa file, run the interpreter using Python:
+
+
+```bash
+py chaufa.py your script.cha
+```
